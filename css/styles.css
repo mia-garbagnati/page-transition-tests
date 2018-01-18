@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+.demo {
+    padding-top: 300px;
+    margin: 0px auto;
+    width: 300px;
+    text-align: center;
+}
+
+a {text-decoration: none; }
+
+/*Demo One*/
+
+#background-1 {
+    background-image: url("../img/page-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+}
+
+.demo-1 { color: #57585c; }
+.demo-1 a { color: #57585c; }
+.demo-1 a:hover{ color: #C44D46; }
