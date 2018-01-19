@@ -9,7 +9,7 @@
 
     const init = () => {
         DOM.click.addEventListener('click', navigate);
-    }
+    };
 
     const navigate = () => {
         anime({
