@@ -76,3 +76,8 @@ main {
     background-image: url("../img/page-2.jpg"); 
     background-position: 0% 50%;
 }
+
+/*Demo Three*/
+.content-after.demo-3 {
+    background-image: url("../img/page-3.jpg");
+}
