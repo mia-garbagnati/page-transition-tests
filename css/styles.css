@@ -9,10 +9,15 @@ body {
     min-height: 100vh;
 }
 
-a { text-decoration: none; }
+a { 
+    text-decoration: none; 
+    color: #57585c;
+}
+a.click, h1 { color: #EAE9E7; }
+a:hover{ color: #C44D46; }
+
 
 /*Page Transitions*/
-
 main {
     height: 100vh;
     width: 100%;
@@ -29,8 +34,9 @@ main {
 .content-before {
     z-index: 100;
     height: 200vh;
-    /*width: 100%;*/
 }
+
+.content-before .inner { background-color: #57585c; }
 
 .inner {
     width: 100%;
@@ -53,6 +59,7 @@ main {
     height: 100vh;
     width: 100%;
     display: block;
+    fill: #57585c;
 }
 
 .shape-wrap {
@@ -62,11 +69,10 @@ main {
 }
 
 /*Demo One*/
-
-.demo-1 h1 { color: #EAE9E7; }
-.demo-1 a.click { color: #EAE9E7; }
-.demo-1 a { color: #57585c; }
-.demo-1 a:hover{ color: #C44D46; }
-.demo-1 .shape { fill: #57585c; }
-.content-before.demo-1 .inner { background-color: #57585c; }
 .content-after.demo-1 { background-image: url("../img/page-1.jpg"); }
+
+/*Demo Two*/
+.content-after.demo-2 { 
+    background-image: url("../img/page-2.jpg"); 
+    background-position: 0% 50%;
+}
