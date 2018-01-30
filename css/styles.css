@@ -31,7 +31,7 @@ main {
     position: relative;
 }
 
-.content-before {
+.content-before{
     z-index: 100;
     height: 200vh;
 }
@@ -80,4 +80,9 @@ main {
 /*Demo Three*/
 .content-after.demo-3 {
     background-image: url("../img/page-3.jpg");
+}
+
+/*Demo Four*/
+.content-after.demo-4 {
+    background-image: url("../img/page-4.jpg");
 }
